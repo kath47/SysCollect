@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:syscollect/Authtentication/espacetravail.dart';
 import 'package:syscollect/Authtentication/signup.dart';
 import 'package:syscollect/JsonModels/users.dart';
 import 'package:syscollect/SQLite/sqlite.dart';
-import 'package:syscollect/Views/dashboard.dart';
+
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -33,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
       //Si la connexion est correcte, passez aux Dashboard
       if (!mounted) return;
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const Dashboard()));
+          context, MaterialPageRoute(builder: (context) => const EspaceTravailDialog()));
     } else {
       //Si ce n'est pas le cas, true la valeur bool pour afficher le message d'erreur
       setState(() {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:syscollect/Views/certificatfoncier.dart';
+import 'package:syscollect/Views/cfmenu.dart';
 import 'package:syscollect/Views/clarification.dart';
 import 'package:syscollect/Views/contratfvi.dart';
 import 'package:syscollect/Views/dtv.dart';
