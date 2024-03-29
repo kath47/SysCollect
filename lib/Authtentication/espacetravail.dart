@@ -13,13 +13,13 @@ class _EspaceTravailDialogState extends State<EspaceTravailDialog> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   FocusNode searchFocusNode = FocusNode();
   FocusNode textFieldFocusNode = FocusNode();
-  late SingleValueDropDownController _cnt;
-  late MultiValueDropDownController _cntMulti;
+  //late SingleValueDropDownController _cnt;
+  //late MultiValueDropDownController _cntMulti;
 
   @override
   void initState() {
-    _cnt = SingleValueDropDownController();
-    _cntMulti = MultiValueDropDownController();
+    //_cnt = SingleValueDropDownController();
+    //_cntMulti = MultiValueDropDownController();
     super.initState();
   }
 
